@@ -1,0 +1,46 @@
+body {
+    background-color: #CC0000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 30px auto;
+    color: #330000;
+    background-color: #990000;
+    left: 50%; 
+    top: 50%; 
+    bottom: 50%;
+    right: 50%;
+    text-align: center;
+    transform: translate (-50%, -50%);  
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#seconds, #tens{
+    font-size:2em;
+}
+
+button {
+    background-color: #FF0000;
+    text-align: center;
+    color: #330000;
+    border: solid 1px #330000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: white;
+}
